@@ -1,2 +1,1 @@
-# angularRun
-create angular frontend
+ok

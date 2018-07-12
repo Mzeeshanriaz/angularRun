@@ -1,0 +1,14 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "angular Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "ng-test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
+}
