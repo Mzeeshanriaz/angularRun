@@ -10,7 +10,7 @@
 <button ng-click="logout()">logout</button>
 <button ng-if="databtn" ng-click="getClients()">clients</button>
 <ol>
-    <li ng-repeat="client in clients">{{client.billing_name}}</li>
+    <li ng-repeat="client in clients">{{client.contacts[0].fullName}} - <b>{{client.contacts[0].phone}}</b></li>
 </ol>
 </body>
 <script type="text/javascript" src="./node_modules/angular/angular.js"></script>
