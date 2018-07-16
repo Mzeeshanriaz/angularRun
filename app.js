@@ -7,7 +7,7 @@ angular.module("App",["ngStorage"]).controller("mainController",function($scope,
     $scope.login = function () {
         if(!$localStorage.key)
         $http.post("http://localhost:8000/api/v1/auth",
-            {email : '-----------------',password: '******************'} ).then(function (res) {
+            {email : '------------------',password: '******************'} ).then(function (res) {
             $localStorage.key = res.data.token;
         });
         $scope.databtn=true;
